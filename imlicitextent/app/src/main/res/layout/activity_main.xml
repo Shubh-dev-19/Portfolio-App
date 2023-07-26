@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/app"
+
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb"
+        android:layout_width="112dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@color/black"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Codechef"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardweb"
+        android:layout_width="112dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@color/black"
+        app:cardCornerRadius="20dp"
+        tools:ignore="DuplicateIds">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Leetcode"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardcamera"
+        android:layout_width="106dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@color/black"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="camera"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/logo"
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/logocode" />
+</LinearLayout>
